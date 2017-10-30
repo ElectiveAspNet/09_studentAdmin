@@ -13124,11 +13124,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\clbo\\Documents\\GithubRepos\\UniversityAdministration\\UniversityAdministration\\UniversityAdministration.csproj",
+      "projectUniqueName": "C:\\Users\\clbo\\Documents\\GithubRepos\\09_UniversityAdministration\\UniversityAdministration\\UniversityAdministration.csproj",
       "projectName": "UniversityAdministration",
-      "projectPath": "C:\\Users\\clbo\\Documents\\GithubRepos\\UniversityAdministration\\UniversityAdministration\\UniversityAdministration.csproj",
+      "projectPath": "C:\\Users\\clbo\\Documents\\GithubRepos\\09_UniversityAdministration\\UniversityAdministration\\UniversityAdministration.csproj",
       "packagesPath": "C:\\Users\\clbo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\clbo\\Documents\\GithubRepos\\UniversityAdministration\\UniversityAdministration\\obj\\",
+      "outputPath": "C:\\Users\\clbo\\Documents\\GithubRepos\\09_UniversityAdministration\\UniversityAdministration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

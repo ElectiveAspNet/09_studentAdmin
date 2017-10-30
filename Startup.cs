@@ -26,7 +26,7 @@ namespace UniversityAdministration
             services.AddMvc();
 
             services.AddDbContext<UniversityAdministrationContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("UniversityAdministrationContext")));
+                    options.UseSqlServer(Configuration.GetConnectionString("OnlineConnectionString")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -33,8 +33,13 @@ namespace UniversityAdministration.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Student
-                .SingleOrDefaultAsync(m => m.StudentId == id);
+            var student = await _context.Student.Include(e => e.Enrollments).ThenInclude(c => c.Course).SingleOrDefaultAsync(m => m.StudentId == id);
+                
+                //.SingleOrDefaultAsync(m => m.StudentId == id);
+
+
+
+
             if (student == null)
             {
                 return NotFound();
